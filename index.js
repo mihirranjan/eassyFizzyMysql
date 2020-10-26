@@ -25,6 +25,7 @@ app.get("/", (req, res) => {
 });
 
 require("./routes/totorial.routs")(app);
+require("./routes/connection.routs")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 3000;
